@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    }
+
+body {
+  background-color: #87ceeb;
+  border: 5px solid rgb(72,205,49);
+  margin: 90px 350px;
+  width: 50%
+}
+
+h1, h2, p, li {
+  color: white;
+}
+
+h2, p {
+  margin-left: 30px;
+}
+
+p {
+  font-size: 20px;
+  padding-right: 25px;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 35px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 4px 4px;
+  margin-bottom: 25px;
+}
+
+li a {
+  color: green;
+  text-decoration: underline;
+}
+
+/*add borders to the menu items*/
+li + li a {
+  border-left: solid purple 2px;
+  padding-left: 12px;
+}
+
+img {
+  float: right;
+  width: 200px;
+  padding-right: 40px;
+  margin-left: 30px;
+}
+
+footer {
+  clear: both;
+}
