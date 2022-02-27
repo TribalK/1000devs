@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*
+==================================
+Navigation
+==================================
+*/
+header {
+  height: 45px;
+  background: black;
+}
+
+nav * {
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+    font-size: 1.6rem;
+}
+
+nav ul {
+  width: 60%;
+}
+
+nav form {
+  width: 200%;
+}
+
+nav span {
+  margin: 1.6rem 0;
+  width: 70%;
+}
+
+form select {
+  margin-left: 5.0rem;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+nav form input {
+  margin-left: 6.0rem;
+  width: 12.5rem;
+  color: black;
+}
+/*
+===================================
+Text
+===================================
+*/
+main section * {
+  color: white;
+}
+
+main > h2 {
+  float: left;
+  width: 45%;
+  margin: 0 1.0rem;
+}
+
+main > h2 + h2 {
+  text-align: right;
+  color: gray;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+section h5 {
+  border-left: 2px solid blue;
+  padding-left: 0.3rem;
+  font-size: 1.4rem;
+}
+
+main+section h2,main+section h5 {
+  border-left: 2px solid red;
+  padding-left: 0.3rem;
+}
+
+/*
+===================================
+Links
+===================================
+*/
+a {
+  text-decoration: none;
+}
+
+/*
+===================================
+Images
+===================================
+main section
+*/
+nav img {
+  width: 7.5rem;
+  background: white;
+}
+
+nav a+a img {
+  width: 16%;
+  margin: 1.0rem 0;
+}
+
+main + section > section img {
+  width: 100%;
+  height: 30.5rem;
+}
+
+.Israel-UAE {
+  background: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.5)), url('../images/Israel-and-UAE.jpg');
+  background-size: 100% 81%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  clear: both;
+}
+
+.Canada-US {
+  background-image: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.5)), url('../images/Canada-US.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  background-origin: content-box;
+}
+
+.productivity {
+  background-image: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.5)), url('../images/Productivity-Gyms.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  background-origin: content-box;
+}
+
+.vaccinate {
+  background-image: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.5)), url('../images/Vaccine.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  background-origin: content-box;
+}
+
+.folk-singer {
+  background-image: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.5)), url('../images/Victor-jara.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  background-origin: content-box;
+}
+/*
+===================================
+Positioning
+===================================
+*/
+.article h1,
+.article h3,
+.article p,
+.article h5 {
+  position: relative;
+  top: 120px;
+  margin: 12px 12px;
+}
+
+.primary.article h1,
+.primary.article p,
+.primary.article h5 {
+  top: 360px;
+}
+
+main + section > section {
+  padding: 0 10px;
+}
+
+/*
+===================================
+Float
+===================================
+*/
+
+.primary {
+  padding: 10px;
+}
+
+.article {
+  float: left;
+  width: 50%;
+  height: 60rem;
+}
+
+main section + section article {
+  float: left;
+  width: 50%;
+  height: 250px;
+  padding: 10px;
+}
+
+main + section {
+  clear: both;
+}
+
+main + section > section {
+  float: left;
+  width: 33.3333%;
+  height: 500px;
+}
+
+footer {
+  clear: both;
+}
