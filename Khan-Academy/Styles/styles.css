@@ -1,0 +1,16 @@
+li {
+  display: inline-block;
+}
+
+li a {
+  color: blue;
+}
+
+section ul li {
+  background-color: rgb(40,40,255);
+  padding: 4px;
+}
+
+section ul li a {
+  color: white;
+}
