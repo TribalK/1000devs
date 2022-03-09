@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  width: 100vh;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+=================================
+Header
+=================================
+*/
+header nav {
+  display: block;
+  padding: 1.2rem 0 0 7.0rem;
+}
+
+header nav img {
+  margin: 0 13rem;
+}
+
+header section h4 {
+  display: inline;
+}
+
+header nav a:first-of-type{
+  padding-right: 1.4rem;
+}
+
+/*
+=================================
+Footer
+=================================
+*/
+footer > div {
+  display: inline-block;
+  padding: 0 0 0 0;
+}
+
+/*
+=================================
+Text / Margins
+=================================
+*/
+.control {
+    margin: 3rem 9rem;
+    text-align: center;
+}
+.control h6 {
+  color: rgba(0,0,0,0.4);
+}
+
+.deep {
+  margin: 3rem 13rem;
+}
+
+.control p {
+  margin-bottom: 2rem;
+}
+
+.trademark {
+  border-top: 1px solid white;
+}
+
+.trademark p {
+  display: inline-block;
+}
+
+.trademark img {
+  margin-left: 3.5rem;
+}
+
+footer * {
+  margin: 0.5rem 0.6rem;
+}
+
+/*
+=================================
+Links
+=================================
+*/
+a {
+  text-decoration: none;
+}
+
+.section-top a, .section-bottom a {
+  color: white;
+}
+
+/*
+=================================
+Objects
+=================================
+*/
+.small-square {
+  width: 55%;
+  height: 10rem;
+  background-color: #66768a;
+  margin: 2rem 4rem;
+}
+
+a.donate {
+  border: 1px solid white;
+  padding: 4px;
+  color: #66768a;
+  background-color: white;
+  border-radius: 15%;
+}
+
+.control a.button {
+  padding: 0.8rem 2.1rem;
+  border: 1px solid rgba(0,0,0,0.4);
+  color: black;
+}
+/*
+=================================
+Images
+=================================
+*/
+
+.logo,
+.section-top img {
+  width: 5%;
+}
+
+.section-bottom > section img {
+  width: 50%;
+}
+
+/*
+=================================
+Backgrounds
+=================================
+*/
+.section-top {
+  color: white;
+  background-color: #66768a;
+  width: 100%;
+  height: 30%;
+}
+
+.section-3 {
+  background-color: #dbdfe2;
+  min-height: 32rem;
+}
+
+.section-bottom {
+  background-color: #161f2a;
+  color: white;
+}
+
+.section-5 {
+  min-height: 32rem;
+}
+
+/*
+=================================
+Floats
+=================================
+*/
+.section-3 > section > section {
+  float: left;
+  width: 50%;
+  padding: 0.3rem;
+}
+
+.section-bottom > section {
+  float: left;
+  width: 45%;
+}
+
+.section-bottom > section > a {
+  float: left;
+  width: 15%;
+}
+
+.section-bottom > section div h5{
+  float: left;
+  width: 25%;
+}
+
+.section-bottom > section + div + section {
+  text-align: right;
+}
+
+
+/*
+==================================
+Media Queries
+==================================
+*/
+@media screen and (max-width: 1600px) {
+  header nav img {
+    margin: 0 8.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header nav img {
+    margin: 0 6.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header nav img {
+    margin: 0 4.5rem;
+  }
+}

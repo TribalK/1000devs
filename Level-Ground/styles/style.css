@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+=================================
+Header
+=================================
+*/
+header nav {
+  display: block;
+  padding: 1.2% 0 0 5.0%;
+}
+
+header nav img {
+  margin: 0 33%;
+}
+
+header section h4 {
+  display: inline;
+}
+
+header nav a:first-of-type{
+  padding-right: 2.4%;
+}
+
+/*
+=================================
+Footer
+=================================
+*/
+footer > div {
+  display: inline-block;
+  padding: 0 0 0 0;
+}
+
+/*
+=================================
+Text / Margins
+=================================
+*/
+
+.control h1 {
+  font-size: 300%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.control {
+    margin: 3% 22%;
+    text-align: center;
+}
+.control h6 {
+  color: rgba(0,0,0,0.4);
+}
+
+.deep {
+  margin: 5% 26%;
+}
+
+.section-top .control p {
+  margin-bottom: 2%;
+}
+
+.trademark {
+  border-top: 1px solid white;
+}
+
+.trademark p {
+  float: left;
+  width: 70%;
+}
+
+.trademark img {
+  float: right;
+  width: 2%;
+}
+
+footer * {
+  margin: 1.5% 0.6%;
+}
+
+.control p {
+  margin-bottom: 10%;
+}
+/*
+=================================
+Links
+=================================
+*/
+a {
+  text-decoration: none;
+}
+
+.section-top a, .section-bottom a {
+  color: white;
+}
+
+/*
+=================================
+Objects
+=================================
+*/
+
+a.donate {
+  border: 1px solid white;
+  padding: 4px;
+  color: #66768a;
+  background-color: white;
+  border-radius: 15%;
+}
+
+.control a.button {
+  padding: 0.8rem 2.1rem;
+  border: 1px solid rgba(0,0,0,0.4);
+  color: black;
+}
+/*
+=================================
+Images
+=================================
+*/
+
+.logo,
+.section-top img {
+  width: 5%;
+}
+
+.section-bottom > section img {
+  width: 50%;
+}
+
+/*
+=================================
+Backgrounds
+=================================
+*/
+.section-top {
+  color: white;
+  background-color: #66768a;
+  width: 100%;
+  height: 30%;
+}
+
+.section-3 {
+  background-color: #dbdfe2;
+  min-height: 40rem;
+}
+
+.section-bottom {
+  background-color: #161f2a;
+  color: white;
+  min-height: 18rem;
+}
+
+.section-5 {
+  min-height: 32rem;
+}
+
+/*
+=================================
+Floats
+=================================
+*/
+
+.visit {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 2.0rem;
+}
+
+.visit-square {
+  width: 100%;
+  height: 25vh;
+  float: left;
+  background-color: #66768a;
+  margin: 5% auto;
+}
+
+.visit-content {
+  width: 100%;
+  height: 50%;
+  float: left;
+/*  margin: 5% 20%;*/
+}
+
+.social-links {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.address {
+  float: right;
+  width: 20%;
+}
+
+/* .section-bottom > section {
+  float: left;
+  width: 20%;
+} */
+
+.section-bottom > section > a {
+  float: left;
+  width: 15%;
+}
+
+.section-bottom > section div h5{
+  float: left;
+  width: 25%;
+}
+
+.section-bottom > section + div + section {
+  margin-left: 10rem;
+  text-align: left;
+}
+
+
+/*
+==================================
+Media Queries
+==================================
+*/
+
+@media screen and (max-width: 1000px) {
+  header nav img {
+    margin: 0 15%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header nav img {
+    margin: 0 4.5rem;
+  }
+}
