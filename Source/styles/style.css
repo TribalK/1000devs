@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html, body {
+  max-width: 100%;
+   overflow-x: hidden;
+ }
+/*
+==========================
+Header Format
+==========================
+*/
+header nav * {
+  display: inline;
+  margin: 0 2% 3% 0;
+}
+
+/*
+==========================
+Text / Margins
+==========================
+*/
+
+main h1 {
+  font-size: 36px;
+}
+
+header {
+  margin-bottom: 3.5%;
+}
+
+header nav h2 {
+  margin-left: 1%;
+  margin-right: 14.2%;
+}
+
+header nav input {
+  margin-left: 12.8%;
+}
+
+main section:first-child {
+  margin: 0 8% 0 5%;
+  padding-right: 16%;
+}
+
+main section > h1 {
+  margin-top: 2.2%;
+}
+
+span {
+  font-size: 12px;
+}
+
+.Features section {
+  margin: 2% 2.1%;
+}
+
+footer p {
+  padding-left: 3%;
+  width: 35%;
+}
+
+footer h2 {
+  font-size: 40px;
+  padding: 2% 3%;
+  width: 35%;
+}
+
+/*
+==========================
+Objects
+==========================
+*/
+
+.button {
+  background-color: #304659;
+  color: white;
+  padding: 0.5% 1.8%;
+  border: none;
+}
+
+main .button {
+  padding: 1.6% 5.0%;
+  margin-left: -1.2%;
+}
+
+main form input {
+  padding: 1.2% 4.4%;
+  background-color: #e1e9f0;
+}
+
+.Hamburger {
+  width: 2%;
+  height: 1%;
+  display: none;
+}
+/*
+==========================
+Links
+==========================
+*/
+a {
+  text-decoration: none;
+}
+
+.Features > section a {
+  font-weight: bold;
+}
+
+/*
+==========================
+Images
+==========================
+*/
+.Features section img {
+  width: 12%;
+}
+/*
+==========================
+Backgrounds
+==========================
+*/
+body {
+  background: #f5f9fc;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,p,a,span {
+  color: #2f4457;
+}
+
+footer {
+  background: #fff;
+  height: 400px;
+}
+/*
+==========================
+Floats
+==========================
+*/
+main > section {
+  float: left;
+  width: 40%;
+}
+
+.Features > section {
+  float: left;
+  width: 20%;
+}
+
+/*
+==========================
+Media Queries
+==========================
+*/
+
+@media screen and (max-width: 426px) {
+  body {
+    width: 100vh;
+  }
+
+  header nav ul, header nav form {
+    display: none;
+  }
+
+  main section > p {
+    width: 70%;
+  }
+
+  main section > span {
+    font-size: 18px;
+  }
+
+  main section:first-child {
+    margin: 0 8% 0 5%;
+    padding-right: 0;
+  }
+
+  main section > h1 {
+    width: 95%;
+  }
+
+  main > section {
+    float: none;
+    width: 100%;
+  }
+
+  main > section img {
+    width: 100%;
+    margin: 13% 0;
+  }
+
+  main > section form {
+    width: 100%;
+  }
+
+  main form input {
+    padding: 1.2% 25.0% 1.2% 1.0%;
+    background-color: #e1e9f0;
+    display: block;
+    width: 70%;
+  }
+
+  main .button {
+    padding: 1.5% 23%;
+    margin-left: 0;
+    margin-top: 1.5%;
+    width: 70%;
+  }
+
+  header > nav > h2 {
+    margin-left: 12.5%;
+  }
+
+  .Features,
+  footer {
+    display: none;
+  }
+/*
+  .Features > section {
+    float: none;
+    width: 90%;
+  }
+
+  .Features > section:not(section:last-of-type) {
+    padding-bottom: 3.5%;
+    margin-bottom: 10.3%;
+    border-bottom: 1px solid black;
+  }
+
+  footer h2, footer p {
+    width: 90%;
+  }*/
+
+  .Hamburger div {
+    display: block;
+    width: 3vh;
+    height: 0.5vh;
+    margin-bottom: 6px;
+    background: #2f4457;
+  }
+
+  .Hamburger {
+    display: inline-block;
+    margin: 1.2% 3.6%;
+  }
+}
